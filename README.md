@@ -61,9 +61,9 @@ THEN the saved events persist
 #### Articles and sites which contributed toward the successful completion of this project are included below:
 
 [Momentjs.com](https://momentjs.com/) <br>
-[GetBootstrap.com](https://getbootstrap.com/docs/4.0/components/input-group/) <br>
+[GetBootstrap.com on Input Groups](https://getbootstrap.com/docs/4.0/components/input-group/) <br>
 [Sitepoint - Jquery](https://www.sitepoint.com/jquery-date-future-date/) <br>
-[GeeksForGeeks](https://www.geeksforgeeks.org/bootstrap-4-jumbotron/) <br>
+[GeeksForGeeks Jquery Tutorials](https://www.geeksforgeeks.org/jquery-tutorials/) <br>
 [LearnCodeAcademy](https://www.youtube.com/watch?v=G-POtu9J-m4) <br>
 [DesignModo](https://designmodo.com/calendar-jquery-css3/) <br>
 
