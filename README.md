@@ -40,11 +40,11 @@ THEN the saved events persist
 ### Getting Started
 #### Installation - Clone the repo: <br>
    ```  
-   git clone https://github.com/onomatopoetica/password-generator.git
+   git clone https://github.com/onomatopoetica/work-day-scheduler.git
    ```
 
 ### Project Links
-[Repo Link](https://github.com/onomatopoetica/https://github.com/onomatopoetica/work-day-scheduler.git) <br>
+[Repo Link](https://github.com/onomatopoetica/work-day-scheduler) <br>
 [GitHub Project Link](https://onomatopoetica.github.io/work-day-scheduler/)
 
 
@@ -60,12 +60,12 @@ THEN the saved events persist
 
 #### Articles and sites which contributed toward the successful completion of this project are included below:
 
-[JavaScript Tutorial](https://www.javascripttutorial.net/) <br>
-[OWASP](https://owasp.org/www-community/password-special-characters) <br>
+[Momentjs.com](https://momentjs.com/) <br>
+[GetBootstrap.com](https://getbootstrap.com/docs/4.0/components/input-group/) <br>
 [A Smarter Way To Learn JavaScript](https://www.asmarterwaytolearn.com/js/) <br>
-[JSHint](https://jshint.com/) <br>
-[How To Style Images With Markdown Blog](https://www.xaprb.com/blog/how-to-style-images-with-markdown/) <br>
-[W3Schools](https://www.w3schools.com/js/default.asp) <br>
+[GeeksForGeeks](https://www.geeksforgeeks.org/bootstrap-4-jumbotron/) <br>
+[LearnCodeAcademy](https://www.youtube.com/watch?v=G-POtu9J-m4) <br>
+[DesignModo](https://designmodo.com/calendar-jquery-css3/) <br>
 
 ### License
 ##### Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
