@@ -32,6 +32,14 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
+## Demo
+
+#### [See how it works!](assets/PLACEHOLDER) This video clip demonstrates the application's rendering and functionality on a mobile device. 
+
+##### The following is a screenshot of the application and overview of its functionality: <br>
+
+<img src="assets/PLACEHOLDER.png" alt="planner screenshot" title="screenshot" width="700" height="auto">
+
 
 ## Getting Started
 #### Installation - Clone the repo: <br>
