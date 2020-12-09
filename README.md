@@ -1,19 +1,13 @@
-## Task
+![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/work-day-scheduler)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/work-day-scheduler)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/work-day-scheduler?label=Watch&style=social)  
+
+
+
+
+## Project
 
 Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use a library like [Moment.js](https://momentjs.com/) to work with dates and times. `Moment.js` has historically been the most popular date/time library but is no longer supported by its developers. However, you can still use it for this project, or you can look into one of the following alternatives:
-
-  * [Luxon](https://moment.github.io/luxon/)
-
-  * [Day.js](https://day.js.org/)
-
-  * [date-fns](https://date-fns.org/)
-
-  * [js-Joda](https://js-joda.github.io/js-joda/)
-
-Whichever library you choose, be sure to read the documentation carefully!
-
+Created with [Moment.js](https://momentjs.com/) library to work with dates and times. <em> `Moment.js` has historically been the most popular date/time library but is no longer supported by its developers.</em> 
 
 ## User Story
 
@@ -43,58 +37,35 @@ THEN the saved events persist
 ```
 
 
-## Mock-Up
+### Getting Started
+#### Installation - Clone the repo: <br>
+   ```  
+   git clone https://github.com/onomatopoetica/password-generator.git
+   ```
 
-The following animation demonstrates the application functionality:
-
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
-
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses the Moment.js library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
+### Project Links
+[Repo Link](https://github.com/onomatopoetica/https://github.com/onomatopoetica/work-day-scheduler.git) <br>
+[GitHub Project Link](https://onomatopoetica.github.io/work-day-scheduler/)
 
 
-## Review
+### Project Status
+<details>
+    <summary>Project Status</summary>
+    Active
+</details>
+<details>
+    <summary>Contact</summary>
+    jendotb@gmail.com
+</details>
 
-You are required to submit BOTH of the following for review:
+#### Articles and sites which contributed toward the successful completion of this project are included below:
 
-* The URL of the functional, deployed application.
+[JavaScript Tutorial](https://www.javascripttutorial.net/) <br>
+[OWASP](https://owasp.org/www-community/password-special-characters) <br>
+[A Smarter Way To Learn JavaScript](https://www.asmarterwaytolearn.com/js/) <br>
+[JSHint](https://jshint.com/) <br>
+[How To Style Images With Markdown Blog](https://www.xaprb.com/blog/how-to-style-images-with-markdown/) <br>
+[W3Schools](https://www.w3schools.com/js/default.asp) <br>
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+### License
+##### Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
