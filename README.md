@@ -1,14 +1,5 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/work-day-scheduler)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/work-day-scheduler)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/work-day-scheduler?label=Watch&style=social)  
 
-
-
-
-## Project
-
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-Created with [Moment.js](https://momentjs.com/) library to work with dates and times. <em> `Moment.js` has historically been the most popular date/time library but is no longer supported by its developers. This repo remains active. As such, the library used in this project may be updated at a later time. </em> 
-
 ## Table of Contents
 1. [About the Project](#About-The-Project)
 1. [Demo](#Demo)
@@ -19,7 +10,9 @@ Created with [Moment.js](https://momentjs.com/) library to work with dates and t
 
 ## About the Project
 
-#### This was a daily planner project for a technical project manager and her team at an electronics manufacturer startup. The project scope sought to provide a web application daily planner which project team could use in effectively managing important project events. The application was to have a clean and polished user interface rendering responsively across a variety of devices. 
+#### This was a simple calendar project for a technical project manager and her team at an electronics manufacturer startup. The project scope sought to provide a web application daily planner that allows a user to save events to each hour of the day enabling the project team to effectively manage important project events. The application was to run in the browser, feature dyamically updated HTML and CSS powered by JQuery. It was to have a clean and polished user interface rendering responsively across a variety of devices. 
+
+#### This project was created with [Moment.js](https://momentjs.com/) library to work with dates and times. <em> `Moment.js` has historically been the most popular date/time library but is no longer supported by its developers. This repo remains active. As such, the library used in this project may be updated at a later time. </em> 
 
 ## Acceptance Criteria
 
