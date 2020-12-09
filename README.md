@@ -1,6 +1,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/work-day-scheduler)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/work-day-scheduler)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/work-day-scheduler?label=Watch&style=social)  
 
-#Workday Scheduler Project
+# Workday Scheduler Project <br>
 
 
 ## Table of Contents
