@@ -62,7 +62,7 @@ THEN the saved events persist
 
 [Momentjs.com](https://momentjs.com/) <br>
 [GetBootstrap.com](https://getbootstrap.com/docs/4.0/components/input-group/) <br>
-[A Smarter Way To Learn JavaScript](https://www.asmarterwaytolearn.com/js/) <br>
+[Sitepoint - Jquery](https://www.sitepoint.com/jquery-date-future-date/) <br>
 [GeeksForGeeks](https://www.geeksforgeeks.org/bootstrap-4-jumbotron/) <br>
 [LearnCodeAcademy](https://www.youtube.com/watch?v=G-POtu9J-m4) <br>
 [DesignModo](https://designmodo.com/calendar-jquery-css3/) <br>
