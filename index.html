@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta value="viewport" content="width=vice-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <!-- Fontawesome  -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <!-- GoogleFonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<!-- Jumbotron header -->
+
+<body>
+  <header>
+    <div class="jumbotron jumboHeaderImg image-fluid">
+      <h1 class="display-4">Work Day Scheduler</h1>
+      <p class="lead subTitle">Project Day Planner</p>
+      <p class="lead dateToday"></p>
+    </div>
+  </header>
+
+  <!-- Container for timeblocks -->
+
+  <section>
+    <div id="container" class="container-fluid">
+
+  <!-- 8AM timeblock   -->
+      
+      <div class="row">
+        <div class="col-1 hour">
+          <p class="8AM">8 AM</p>
+        </div>
+        <div class="col-10 time-block input-group form-group">
+          <textarea id="8AM" class="form-control custom-control" value="8"></textarea>
+          <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
+                class="far fa-check-circle"></i></span></button>
+        </div>
+      </div>
+
+  <!-- 9AM timeblock -->
+
+      <div class="row">
+        <div class="col-1 hour">
+          <p class="9AM">9 AM</p>
+        </div>
+        <div class="col-10 time-block input-group form-group">
+          <textarea id="9AM" class="form-control custom-control" value="9"></textarea>
+          <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
+                class="far fa-check-circle"></i></span></button>
+        </div>
+      </div>
+
+  <!-- 10AM timeblock -->
+
+      <div class="row">
+        <div class="col-1 hour">
+          <p class="10AM">10 AM</p>
+        </div>
+        <div class="col-10 time-block input-group form-group">
+          <textarea id="10AM" class="form-control custom-control" value="10"></textarea>
+          <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
+                class="far fa-check-circle"></i></span></button>
+        </div>
+      </div>
+
+  <!-- 11 AM timeblock -->
+
+      <div class="row">
+        <div class="col-1 hour">
+          <p class="11AM">11 AM</p>
+        </div>
+        <div class="col-10 time-block input-group form-group">
+          <textarea id="11AM" class="form-control custom-control" value="11"></textarea>
+          <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
+                class="far fa-check-circle"></i></span></button>
+        </div>
+      </div>
+
+  <!-- 12PM timeblock   -->
+
+      <div class="row">
+        <div class="col-1 hour">
+          <p class="12PM">12 PM</p>
+        </div>
+        <div class="col-10 input-group form-group">
+          <textarea id="12PM" class="form-control custom-control" value="12"></textarea>
+          <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
+                class="far fa-check-circle"></i></span></button>
+        </div>
+      </div>
+
+  <!-- 1PM timeblock -->
+
+      <div class="row">
+        <div class="col-1 hour">
+          <p class="1PM">1 PM</p>
+        </div>
+        <div class="col-10 input-group form-group">
+          <textarea id="1PM" class="form-control custom-control" value="13"></textarea>
+          <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
+                class="far fa-check-circle"></i></span></button>
+        </div>
+      </div>
+
+  <!-- 2PM timeblock   -->
+
+      <div class="row">
+        <div class="col-1 hour">
+          <p class="2PM">2 PM</p>
+        </div>
+        <div class="col-10 input-group form-group">
+          <textarea id="2PM" class="form-control custom-control" value="14"></textarea>
+          <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
+                class="far fa-check-circle"></i></span></button>
+        </div>
+      </div>
+
+  <!-- 3PM timeblock -->
+
+      <div class="row">
+        <div class="col-1 hour">
+          <p class="3PM">3 PM</p>
+        </div>
+        <div class="col-10 input-group form-group">
+          <textarea id="3PM" class="form-control custom-control" value="15"></textarea>
+          <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
+                class="far fa-check-circle"></i></span></button>
+        </div>
+      </div>
+
+  <!-- 4PM timeblocks   -->
+
+      <div class="row">
+        <div class="col-1 hour">
+          <p class="4PM">4 PM</p>
+        </div>
+        <div class="col-10 input-group form-group">
+          <textarea id="4PM" class="form-control custom-control" value="16"></textarea>
+          <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
+                class="far fa-check-circle"></i></span></button>
+        </div>
+      </div>
+
+  <!-- 5PM timeblock -->
+
+      <div class="row">
+        <div class="col-1 hour">
+          <p class="5PM">5 PM</p>
+        </div>
+        <div class="col-10 input-group form-group">
+          <textarea id="5PM" class="form-control custom-control" value="17"></textarea>
+          <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
+                class="far fa-check-circle"></i></span></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Footer content -->
+
+   <footer>
+    <div class="footer" style="font-size: 10px; background-color: white; text-align: center;">
+        <p>&#169; JenDotB 2020</p>
+    </div>
+</footer>
+
+  <!-- Jquery CDN -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+  <!-- Local js -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
