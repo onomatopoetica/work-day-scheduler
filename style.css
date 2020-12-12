@@ -32,7 +32,7 @@ textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: rgb(72, 72, 72);
   padding: 10px;
 }
 
@@ -49,10 +49,7 @@ textarea{
 }
 
 #container {
-  border-radius: 1px;
-  /* border-right: 1px solid rgb(228, 186, 17);
-  border-left: 1px solid rgb(228, 186, 17); */
-  /* border-bottom: 1px solid rgb(228, 186, 17); */
+  border-radius: 1px;  
 }
 
 /* .description{
@@ -80,19 +77,19 @@ textarea{
 .past {
   background-color: #d3d3d3;
   opacity: 90%;
-  color: white;
+  color: rgb(72, 72, 72);
 }
 
 .present {
   background-color: #ff6961;
   opacity: 90%;
-  color: white;
+  color: rgb(72, 72, 72);
 }
 
 .future {
   background-color: #77dd77;
   opacity: 90%;
-  color: white;
+  color: rgb(72, 72, 72);
 }
 
 .saveBtn {
@@ -106,26 +103,31 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
+/* On screens that are 400px wide or less */
+
 @media (max-width: 400px) {
    
   textarea {
-    width: 50%;
+    font-size: 10px;
   } 
 
   p {
     font-size: 10px;
+    width: 30px;
+
   }
 
   .hour {
     font-size: 8px;
     margin-left: 0px;
+    width: 30px;
   }
 
 }
 
-/* When the width is between 600px and 900px OR above 1100px - change the appearance of <div> and textarea */
+/* When the width is between 740px and 1500px - change the appearance of the following areas */
 
-@media screen and (min-width: 720px) and (max-width: 1500px) {
+@media screen and (min-width: 740px) and (max-width: 1500px) {
   
   div {
     font-size: 14px;
@@ -144,14 +146,9 @@ textarea{
   }
 }
 
-/* On screens that are 600px wide or less */
+/* On screens that are between 401px and 720px wide */
 
-@media screen and (max-width: 720px) {
-  
-  .jumbotron {
-    text-align: center;
-    text-shadow: 1px 1px black;
-  }  
+@media screen and (max-width: 740px) {    
 
   .display-4 {
     font-size: 35px;
@@ -169,11 +166,13 @@ textarea{
   }
 
   .hour {
-    padding-left: 20px;
+    padding-left: 10px;
+    width: 40px;
   }
 
   p {
     font-size: 10px;
+    width: 40px;
   }
   
   div {
@@ -184,7 +183,7 @@ textarea{
 
   .form-control {
     font-size: 10px;
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .saveBtn {
