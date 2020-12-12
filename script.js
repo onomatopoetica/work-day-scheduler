@@ -28,15 +28,16 @@ $(document).ready(function () {
 
     // If statement to indicate on scheduler time in past, present and future
 
+
     $("textarea").each(function () {
-        var value = parseInt($(this).attr("value"));
-        if (value < now) {
+        var name = parseInt($(this).attr("name"));
+        if (name < now) {
             $(this).addClass("past");
         }
-        else if (value > now) {
+        else if (name > now) {
             $(this).addClass("future");
         }
-        else if (value === now) {
+        else if (name === now) {
             $(this).addClass("present");
         }
     })

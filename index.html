@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta value="viewport" content="width=vice-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <!-- Bootstrap CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
@@ -24,8 +24,10 @@
   <header>
     <div class="jumbotron jumboHeaderImg image-fluid">
       <h1 class="display-4">Work Day Scheduler</h1>
-      <p class="lead subTitle">Project Day Planner</p>
-      <p class="lead dateToday"></p>
+      <br>
+      <h4 class="lead subTitle">Project Day Planner</h4>
+      <br>
+      <h6 class="lead dateToday"></h6>
     </div>
   </header>
 
@@ -41,7 +43,7 @@
           <p class="8AM">8 AM</p>
         </div>
         <div class="col-10 time-block input-group form-group">
-          <textarea id="8AM" class="form-control custom-control" value="8"></textarea>
+          <textarea id="8AM" class="form-control custom-control" name="8"></textarea>
           <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
                 class="far fa-check-circle"></i></span></button>
         </div>
@@ -54,7 +56,7 @@
           <p class="9AM">9 AM</p>
         </div>
         <div class="col-10 time-block input-group form-group">
-          <textarea id="9AM" class="form-control custom-control" value="9"></textarea>
+          <textarea id="9AM" class="form-control custom-control" name="9"></textarea>
           <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
                 class="far fa-check-circle"></i></span></button>
         </div>
@@ -67,7 +69,7 @@
           <p class="10AM">10 AM</p>
         </div>
         <div class="col-10 time-block input-group form-group">
-          <textarea id="10AM" class="form-control custom-control" value="10"></textarea>
+          <textarea id="10AM" class="form-control custom-control" name="10"></textarea>
           <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
                 class="far fa-check-circle"></i></span></button>
         </div>
@@ -80,7 +82,7 @@
           <p class="11AM">11 AM</p>
         </div>
         <div class="col-10 time-block input-group form-group">
-          <textarea id="11AM" class="form-control custom-control" value="11"></textarea>
+          <textarea id="11AM" class="form-control custom-control" name="11"></textarea>
           <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
                 class="far fa-check-circle"></i></span></button>
         </div>
@@ -93,7 +95,7 @@
           <p class="12PM">12 PM</p>
         </div>
         <div class="col-10 input-group form-group">
-          <textarea id="12PM" class="form-control custom-control" value="12"></textarea>
+          <textarea id="12PM" class="form-control custom-control" name="12"></textarea>
           <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
                 class="far fa-check-circle"></i></span></button>
         </div>
@@ -106,7 +108,7 @@
           <p class="1PM">1 PM</p>
         </div>
         <div class="col-10 input-group form-group">
-          <textarea id="1PM" class="form-control custom-control" value="13"></textarea>
+          <textarea id="1PM" class="form-control custom-control" name="13"></textarea>
           <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
                 class="far fa-check-circle"></i></span></button>
         </div>
@@ -119,7 +121,7 @@
           <p class="2PM">2 PM</p>
         </div>
         <div class="col-10 input-group form-group">
-          <textarea id="2PM" class="form-control custom-control" value="14"></textarea>
+          <textarea id="2PM" class="form-control custom-control" name="14"></textarea>
           <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
                 class="far fa-check-circle"></i></span></button>
         </div>
@@ -132,7 +134,7 @@
           <p class="3PM">3 PM</p>
         </div>
         <div class="col-10 input-group form-group">
-          <textarea id="3PM" class="form-control custom-control" value="15"></textarea>
+          <textarea id="3PM" class="form-control custom-control" name="15"></textarea>
           <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
                 class="far fa-check-circle"></i></span></button>
         </div>
@@ -145,7 +147,7 @@
           <p class="4PM">4 PM</p>
         </div>
         <div class="col-10 input-group form-group">
-          <textarea id="4PM" class="form-control custom-control" value="16"></textarea>
+          <textarea id="4PM" class="form-control custom-control" name="16"></textarea>
           <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
                 class="far fa-check-circle"></i></span></button>
         </div>
@@ -158,7 +160,7 @@
           <p class="5PM">5 PM</p>
         </div>
         <div class="col-10 input-group form-group">
-          <textarea id="5PM" class="form-control custom-control" value="17"></textarea>
+          <textarea id="5PM" class="form-control custom-control" name="17"></textarea>
           <button class="col-1 btn saveBtn btn-warning"><span style="font-size: 1.5em; color:white;"><i
                 class="far fa-check-circle"></i></span></button>
         </div>
@@ -169,8 +171,8 @@
    <!-- Footer content -->
 
    <footer>
-    <div class="footer" style="font-size: 10px; background-color: white; text-align: center;">
-        <p>&#169; JenDotB 2020</p>
+    <div class="footer" style="font-size: .75em; background-color: white; color: rgb(228, 186, 17); text-align: center;">
+        <h6>&#169; JenDotB 2020</h6>
     </div>
 </footer>
 
