@@ -1,7 +1,7 @@
 //  jQuery detects the state of readiness of document before running code with document.ready function
 
 $(document).ready(function () {
-    console.log("ready!");
+    console.log("ready");
 
     // Establishing hours of the day on scheduler
 
