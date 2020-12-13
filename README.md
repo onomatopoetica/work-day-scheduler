@@ -46,7 +46,7 @@ THEN the saved events persist
 
 ##### The following is a screenshot of the application and overview of its functionality: <br>
 
-<img src="assets/scheduler0meetings.png" alt="planner screenshot" title="screenshot" width="700" height="auto">
+<img src="assets/scheduler0meetings.png" alt="planner screenshot" title="screenshot" width="400" height="auto">
 
 ## Getting Started
 #### Installation - Clone the repo: <br>
