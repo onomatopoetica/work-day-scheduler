@@ -40,7 +40,7 @@ THEN the saved events persist
 
 ## Demo
 
-#### [See how it works!](https://drive.google.com/file/d/1xiSBFFEuQ9gCtXtDHzFhLhIyeLz6BhdC/view?usp=sharing) This video clip demonstrates the application's rendering and functionality on a mobile device. 
+#### ![See how it works!](https://github.com/onomatopoetica/work-day-scheduler/blob/main/assets/schedulerDemo.GIF) This video clip demonstrates the application's rendering and functionality on a mobile device. 
 
 ##### The following is a screenshot of the application and overview of its functionality: <br>
 
