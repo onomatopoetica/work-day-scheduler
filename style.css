@@ -1,40 +1,12 @@
-.jumboHeaderImg {
-  background-image: url("assets/sunflower.png");
-  background-size: cover;
-  }
+/* Body styling Google font Fjalla */
 
 body {
   font-family: 'Fjalla One', sans-serif;
   font-size: 16px;
   line-height: 1;
-  /* background-color: rgb(255, 255, 255); */
 }
 
-.subTitle {
-  color: white;
-  text-shadow: 1px 1px darkgoldenrod;
-  font-size: 30px;
-}
-
-.dateToday {
-  color: white;
-  text-shadow: 1px 1px darkgoldenrod;
-  font-style: italic;
-}
-
-p {
-  padding-top: 15px;
-  text-align: center;
-  color: rgb(228, 186, 17);
-}
-
-textarea{
-  background: transparent;
-  border: none;
-  resize: none;
-  color: rgb(72, 72, 72);
-  padding: 10px;
-}
+/* Jumbotron */
 
 .jumbotron {
   text-align: center;
@@ -48,6 +20,41 @@ textarea{
   border-top: 1px solid rgb(228, 186, 17);
 }
 
+.jumboHeaderImg {
+  background-image: url("assets/sunflower.png");
+  background-size: cover;
+  }
+
+.subTitle {
+  color: white;
+  text-shadow: 1px 1px darkgoldenrod;
+  font-size: 30px;
+}
+
+.dateToday {
+  color: white;
+  text-shadow: 1px 1px darkgoldenrod;
+  font-style: italic;
+}
+
+/* Styling <p> element */
+
+p {
+  padding-top: 15px;
+  text-align: center;
+  color: rgb(228, 186, 17);
+}
+
+/* Styling form text area */
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: rgb(72, 72, 72);
+  padding: 10px;
+}
+
 #container {
   border-radius: 1px;  
 }
@@ -55,6 +62,8 @@ textarea{
 /* .description{
   white-space: pre-wrap;
 } */
+
+/* Styling time-blocks */
 
 .time-block{
   text-align: center;
@@ -74,6 +83,8 @@ textarea{
   margin-left: 10px;
  }
 
+/* Styling color for past, present and future in time-blocks */
+
 .past {
   background-color: #d3d3d3;
   opacity: 90%;
@@ -91,6 +102,8 @@ textarea{
   opacity: 90%;
   color: rgb(72, 72, 72);
 }
+
+/* Button styling */
 
 .saveBtn {
   border-left: 1px solid rgb(228, 186, 17);
@@ -123,27 +136,6 @@ textarea{
     width: 30px;
   }
 
-}
-
-/* When the width is between 740px and 1500px - change the appearance of the following areas */
-
-@media screen and (min-width: 740px) and (max-width: 1500px) {
-  
-  div {
-    font-size: 14px;
-  }
-
-  textarea {
-    font-size: 12px;
-  }
-
-  .form-control {
-    max-width: 100%;
-  }  
-
-  .hour {
-    margin-left: 30px;
-  }
 }
 
 /* On screens that are between 401px and 720px wide */
@@ -190,5 +182,26 @@ textarea{
     font-size: 1em;
     max-width: 100%;
     
+  }
+}
+
+/* On screens between 740px and 1500px */
+
+@media screen and (min-width: 740px) and (max-width: 1500px) {
+  
+  div {
+    font-size: 14px;
+  }
+
+  textarea {
+    font-size: 12px;
+  }
+
+  .form-control {
+    max-width: 100%;
+  }  
+
+  .hour {
+    margin-left: 30px;
   }
 }
