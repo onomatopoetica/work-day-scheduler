@@ -40,12 +40,14 @@ THEN the saved events persist
 
 ## Demo
 
-#### ![See how it works!](https://github.com/onomatopoetica/work-day-scheduler/blob/main/assets/schedulerDemo.GIF) This video clip demonstrates the application's rendering and functionality on a mobile device. 
-
+##### This video clip demonstrates the application's rendering and functionality on a mobile device.
+<p align="center">
+![See how it works!](https://github.com/onomatopoetica/work-day-scheduler/blob/main/assets/schedulerDemo.GIF)  
+</p>
 ##### The following is a screenshot of the application and overview of its functionality: <br>
-
+<p align="center">
 <img src="assets/scheduler0meetings.png" alt="planner screenshot" title="screenshot" width="700" height="auto">
-
+</p>
 ## Getting Started
 #### Installation - Clone the repo: <br>
    ```  
