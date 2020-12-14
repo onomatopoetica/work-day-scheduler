@@ -76,10 +76,9 @@ THEN the saved events persist
 
 [Momentjs.com](https://momentjs.com/) <br>
 [GetBootstrap.com on Input Groups](https://getbootstrap.com/docs/4.0/components/input-group/) <br>
-[Learning jQuery - Handling JSON](https://www.learningjquery.com/2017/09/handling-json-with-jquery) <br>
 [GeeksForGeeks jQuery Tutorials](https://www.geeksforgeeks.org/jquery-tutorials/) <br>
 [LearnCodeAcademy - jQuery Tutorial #2 Event Binding](https://www.youtube.com/watch?v=G-POtu9J-m4) <br>
-[DesignModo](https://designmodo.com/calendar-jquery-css3/) <br>
+[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) <br>
 
 ## License
 ##### Distributed under the MIT License. See `LICENSE` for more information.
