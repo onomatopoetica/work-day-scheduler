@@ -78,7 +78,7 @@ THEN the saved events persist
 [GetBootstrap.com on Input Groups](https://getbootstrap.com/docs/4.0/components/input-group/) <br>
 [GeeksForGeeks jQuery Tutorials](https://www.geeksforgeeks.org/jquery-tutorials/) <br>
 [LearnCodeAcademy - jQuery Tutorial #2 Event Binding](https://www.youtube.com/watch?v=G-POtu9J-m4) <br>
-[MDN web docs](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) <br>
+[MDN web docs - Window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) <br>
 
 ## License
 ##### Distributed under the MIT License. See `LICENSE` for more information.
