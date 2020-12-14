@@ -49,6 +49,14 @@ THEN the saved events persist
 <img src="assets/scheduler0meetings.png" alt="planner screenshot" title="screenshot" width="400" height="auto">
 
 ## Getting Started
+
+#### Languages and libraries used in this project:
+* HTML
+* CSS
+* jQuery
+* Moment.js
+* Bootstrap 4
+
 #### Installation - Clone the repo: <br>
    ```  
    git clone https://github.com/onomatopoetica/work-day-scheduler.git
@@ -68,9 +76,9 @@ THEN the saved events persist
 
 [Momentjs.com](https://momentjs.com/) <br>
 [GetBootstrap.com on Input Groups](https://getbootstrap.com/docs/4.0/components/input-group/) <br>
-[Sitepoint - Jquery](https://www.sitepoint.com/jquery-date-future-date/) <br>
-[GeeksForGeeks Jquery Tutorials](https://www.geeksforgeeks.org/jquery-tutorials/) <br>
-[LearnCodeAcademy](https://www.youtube.com/watch?v=G-POtu9J-m4) <br>
+[Learning jQuery - Handling JSON](https://www.learningjquery.com/2017/09/handling-json-with-jquery) <br>
+[GeeksForGeeks jQuery Tutorials](https://www.geeksforgeeks.org/jquery-tutorials/) <br>
+[LearnCodeAcademy - jQuery Tutorial #2 Event Binding](https://www.youtube.com/watch?v=G-POtu9J-m4) <br>
 [DesignModo](https://designmodo.com/calendar-jquery-css3/) <br>
 
 ## License
