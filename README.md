@@ -4,7 +4,7 @@
 
 ## About the Project
 
-#### This was a simple calendar project for a technical project manager and her team at an electronics manufacturer startup. The project scope sought to provide a web app planner allowing users to save notes to each hour of the day and effectively manage important project events. The application was to run in the browser, feature dynamically updated HTML and CSS powered by JQuery and have a clean and polished user interface rendering responsively across a variety of devices. 
+#### This was a simple calendar project for a technical project manager and her team at an electronics manufacturer startup. The project scope sought to provide a web app planner allowing users to save notes to each hour of the day and effectively manage important project events. The application was to run in the browser, feature dynamically updated HTML and CSS powered by jQuery and have a clean and polished user interface rendering responsively across a variety of devices. 
 
 #### The project was created with [Moment.js](https://momentjs.com/) library to work with dates and times. <em> While `Moment.js` has historically been the most popular date/time library, it is no longer supported by its developers. This repo remains active and, as such, the library used in this project may be updated at a later time if necessary. </em> 
 
